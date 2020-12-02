@@ -30,13 +30,13 @@ int main(int argc, char *argv[]) {
 		close(fd[0]);
 		if((in_fd=open(argv[1],O_RDONLY))<0)
 			{
-			fprintf(stderr,"eror\n");
+			fprintf(stderr,"blad\n");
 			return 2;
 			}
 
 	while ((n= read(in_fd, &buf,Buf_rozmiar))>0){
 		if(write(fd[1],&buf,n)<0){
-			fprintf(stderr,"eror\n");
+			fprintf(stderr,"blad\n");
 			return 3;
 			}
 
