@@ -28,7 +28,6 @@ int main(int argc, char *argv[]) {
 	else if(pid>0)//rodzic
 	{
 		close(fd[0]);
-		//scanf("%s",fname);
 		if((in_fd=open(argv[1],O_RDONLY))<0)
 			{
 			fprintf(stderr,"eror\n");
