@@ -1,0 +1,14 @@
+Wyjśćie terminala zadanie 1 : 
+
+/app Francesinha.txt 
+#francesinha (tost kielbasa kotle#
+#t boczek parowki jakies smazone #
+#mieso ser tost jajko sadzone fry#
+#tki i wszystko ratuje tlusty sos#
+#. Portugalskie narodowe danie
+ 
+#
+
+Gdy odpalimy program z zadanie 2 pokaże nam się obrazek
+
+wywowałenie programu ./app Obrazek.jpeg
